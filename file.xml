@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Employees_Info 
+[
+<!ELEMENT Employees_Info (Name,Father_Name,CNIC,Contact_Number,Skills,Social_Media_links,Sallary)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Father_Name (#PCDATA)>
+<!ELEMENT CNIC (#PCDATA)>
+<!ELEMENT Contact_Number (#PCDATA)>
+<!ELEMENT Sallary (#PCDATA)>
+<!ELEMENT Skills (Soft,Hard)>
+<!ELEMENT Soft (Skill1,Skill2,Skill3,Skill4)>
+<!ELEMENT Skill1 (#PCDATA)>
+<!ELEMENT Skill2 (#PCDATA)>
+<!ELEMENT Skill3 (#PCDATA)>
+<!ELEMENT Skill4 (#PCDATA)>
+<!ELEMENT Hard (HSkill1,HSkill2,HSkill3)>
+<!ELEMENT HSkill1 (#PCDATA)>
+<!ELEMENT HSkill2 (#PCDATA)>
+<!ELEMENT HSkill3 (#PCDATA)>
+<!ELEMENT Social_Media_links (Facebook,Instagram,Twitter)>
+<!ELEMENT Facebook (#PCDATA)>
+<!ELEMENT Instagram (#PCDATA)>
+<!ELEMENT Twitter (#PCDATA)>
+]>
+
+<Employees_Info>
+
+    <Name>Shibli Zahid</Name>
+
+    <Father_Name>Zahid Pervaz</Father_Name>
+
+    <CNIC>986-565-45645</CNIC>
+
+    <Contact_Number>999-999-999</Contact_Number>
+
+    <Skills>
+
+        <Soft>
+
+            <Skill1>Communication</Skill1>
+
+            <Skill2>Leadership</Skill2>
+
+            <Skill3>Punctual</Skill3>
+
+            <Skill4>Team Work</Skill4>
+
+        </Soft>
+
+        <Hard>
+
+            <HSkill1>Ms_Office</HSkill1>
+
+            <HSkill2>Word-Press</HSkill2>
+
+            <HSkill3>HTML And CSS</HSkill3>
+
+        </Hard>
+
+    </Skills>
+
+    <Social_Media_links>
+
+        <Facebook>www.facebook/account.com</Facebook>
+
+        <Instagram>www.insta/account.com</Instagram>
+
+        <Twitter>www.twitter/account.com</Twitter>
+
+    </Social_Media_links>
+
+    <Sallary>Rs. 35000</Sallary>
+
+</Employees_Info>
